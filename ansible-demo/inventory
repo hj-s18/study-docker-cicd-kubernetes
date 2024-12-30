@@ -1,0 +1,10 @@
+[controlplanes]
+controlplane  mgmt_nic=enp0s8
+
+[worker_nodes]
+node01
+node02
+
+[cluster:children]
+controlplanes
+worker_nodes

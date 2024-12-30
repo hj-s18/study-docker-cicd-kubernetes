@@ -1,0 +1,42 @@
+# vi nginx-svc-deploy.yml
+apiVersion: v1
+kind: Service
+metadata:
+  name: mynginx
+  labels:
+    app: nginx
+spec:
+  ports:
+  - port: 80
+    name: web
+  selector:
+    app: nginx
+  type: NodePort
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: web
+spec:
+  replicas: 5
+  selector:
+    matchLabels:
+      app: nginx
+  template:
+    metadata:
+      labels:
+        app: nginx
+    spec:
+      containers:
+      - name: nginx
+        image: nginx
+        ports:
+        - containerPort: 80
+          name: web
+        volumeMounts:
+        - mountPath: /usr/share/nginx/html
+          name: nginxvolume
+      volumes:
+      - name: nginxvolume
+        persistentVolumeClaim:
+          claimName: nginx-pvc

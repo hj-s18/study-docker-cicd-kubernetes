@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: Pod
+metadata: 
+  name: mynginx
+  labels: 
+    name: hello
+spec:
+  containers:
+    - name: webcontainer
+      image: quay.io/uvelyster/nginx
+      readinessProbe: 
+        httpGet:
+          path: /index.html
+          port: 80

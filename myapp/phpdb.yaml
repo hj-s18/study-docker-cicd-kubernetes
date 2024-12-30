@@ -1,0 +1,46 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  labels:
+    app: phpdb
+  name: phpdb
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: phpdb
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+      labels:
+        app: phpdb
+    spec:
+      imagePullSecrets:
+      - name: regcred
+      containers:
+      - name: phpdb
+        image: myregistry.com/myproj/phpdb
+        env:
+        - name: MYSQL_ROOT_PASSWORD
+          valueFrom:
+            secretKeyRef:
+              name: dbcfg
+              key: MYSQL_ROOT_PASSWORD
+        - name: MYSQL_USER
+          valueFrom:
+            secretKeyRef:
+              name: dbcfg
+              key: MYSQL_USER
+        - name: MYSQL_PASSWORD
+          valueFrom:
+            secretKeyRef:
+              name: dbcfg
+              key: MYSQL_PASSWORD
+        - name: MYSQL_DATABASE
+          valueFrom:
+            secretKeyRef:
+              name: dbcfg
+              key: MYSQL_DATABASE
+status: {}
