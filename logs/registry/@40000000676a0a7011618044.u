@@ -1,0 +1,7 @@
+2024-12-23_00:45:02.67432 time="2024-12-23T00:45:02.673Z" level=info msg="Starting upload purge in 27m0s" environment=production go_version=go1.21.9 instance_id=8de6b4cd-27e8-47d0-9bab-34c5cd75cc61 service=registry version=v4.0.0-gitlab
+2024-12-23_00:45:02.67442 time="2024-12-23T00:45:02.674Z" level=info msg="storage backend redirection enabled" environment=production go_version=go1.21.9 instance_id=8de6b4cd-27e8-47d0-9bab-34c5cd75cc61 service=registry version=v4.0.0-gitlab
+2024-12-23_00:45:02.67447 time="2024-12-23T00:45:02.674Z" level=info msg="using inmemory blob descriptor cache" environment=production go_version=go1.21.9 instance_id=8de6b4cd-27e8-47d0-9bab-34c5cd75cc61 service=registry version=v4.0.0-gitlab
+2024-12-23_00:45:02.68262 time="2024-12-23T00:45:02.679Z" level=info msg="listening on 127.0.0.1:5000" environment=production go_version=go1.21.9 instance_id=8de6b4cd-27e8-47d0-9bab-34c5cd75cc61 service=registry version=v4.0.0-gitlab
+2024-12-23_01:12:02.67587 time="2024-12-23T01:12:02.675Z" level=info msg="PurgeUploads starting: olderThan=2024-12-16 01:12:02.674722332 +0000 UTC m=-603179.874638544, actuallyDelete=true"
+2024-12-23_01:12:02.67664 time="2024-12-23T01:12:02.676Z" level=info msg="Purge uploads finished.  Num deleted=0, num errors=0"
+2024-12-23_01:12:02.67666 time="2024-12-23T01:12:02.676Z" level=info msg="Starting upload purge in 24h0m0s" environment=production go_version=go1.21.9 instance_id=8de6b4cd-27e8-47d0-9bab-34c5cd75cc61 service=registry version=v4.0.0-gitlab

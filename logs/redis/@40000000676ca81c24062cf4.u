@@ -1,0 +1,485 @@
+2024-12-24_01:11:54.19894 275:C 24 Dec 2024 01:11:54.194 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+2024-12-24_01:11:54.19904 275:C 24 Dec 2024 01:11:54.194 # Redis version=7.0.15, bits=64, commit=f35f36a2, modified=1, pid=275, just started
+2024-12-24_01:11:54.19904 275:C 24 Dec 2024 01:11:54.194 # Configuration loaded
+2024-12-24_01:11:54.19905 275:M 24 Dec 2024 01:11:54.194 * monotonic clock: POSIX clock_gettime
+2024-12-24_01:11:54.20491                 _._                                                  
+2024-12-24_01:11:54.20493            _.-``__ ''-._                                             
+2024-12-24_01:11:54.20494       _.-``    `.  `_.  ''-._           Redis 7.0.15 (f35f36a2/1) 64 bit
+2024-12-24_01:11:54.20494   .-`` .-```.  ```\/    _.,_ ''-._                                  
+2024-12-24_01:11:54.20494  (    '      ,       .-`  | `,    )     Running in standalone mode
+2024-12-24_01:11:54.20494  |`-._`-...-` __...-.``-._|'` _.-'|     Port: 0
+2024-12-24_01:11:54.20494  |    `-._   `._    /     _.-'    |     PID: 275
+2024-12-24_01:11:54.20494   `-._    `-._  `-./  _.-'    _.-'                                   
+2024-12-24_01:11:54.20495  |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+2024-12-24_01:11:54.20495  |    `-._`-._        _.-'_.-'    |           https://redis.io       
+2024-12-24_01:11:54.20495   `-._    `-._`-.__.-'_.-'    _.-'                                   
+2024-12-24_01:11:54.20495  |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+2024-12-24_01:11:54.20495  |    `-._`-._        _.-'_.-'    |                                  
+2024-12-24_01:11:54.20496   `-._    `-._`-.__.-'_.-'    _.-'                                   
+2024-12-24_01:11:54.20496       `-._    `-.__.-'    _.-'                                       
+2024-12-24_01:11:54.20496           `-._        _.-'                                           
+2024-12-24_01:11:54.20497               `-.__.-'                                               
+2024-12-24_01:11:54.20497 
+2024-12-24_01:11:54.20497 275:M 24 Dec 2024 01:11:54.204 # Server initialized
+2024-12-24_01:11:54.20497 275:M 24 Dec 2024 01:11:54.204 # WARNING Memory overcommit must be enabled! Without it, a background save or replication may fail under low memory condition. Being disabled, it can can also cause failures without low memory condition, see https://github.com/jemalloc/jemalloc/issues/1328. To fix this issue add 'vm.overcommit_memory = 1' to /etc/sysctl.conf and then reboot or run the command 'sysctl vm.overcommit_memory=1' for this to take effect.
+2024-12-24_01:11:54.21128 275:M 24 Dec 2024 01:11:54.211 * Loading RDB produced by version 7.0.15
+2024-12-24_01:11:54.21129 275:M 24 Dec 2024 01:11:54.211 * RDB age 58824 seconds
+2024-12-24_01:11:54.21129 275:M 24 Dec 2024 01:11:54.211 * RDB memory usage when created 5.19 Mb
+2024-12-24_01:11:54.23874 275:M 24 Dec 2024 01:11:54.238 * Done loading RDB, keys loaded: 277, keys expired: 7700.
+2024-12-24_01:11:54.23919 275:M 24 Dec 2024 01:11:54.239 * DB loaded from disk: 0.034 seconds
+2024-12-24_01:11:54.24601 275:M 24 Dec 2024 01:11:54.245 * The server is now ready to accept connections at /var/opt/gitlab/redis/redis.socket
+2024-12-24_01:16:55.03544 275:M 24 Dec 2024 01:16:55.035 * 10 changes in 300 seconds. Saving...
+2024-12-24_01:16:55.03595 275:M 24 Dec 2024 01:16:55.035 * Background saving started by pid 708
+2024-12-24_01:16:55.04758 708:C 24 Dec 2024 01:16:55.047 * DB saved on disk
+2024-12-24_01:16:55.04840 708:C 24 Dec 2024 01:16:55.048 * Fork CoW for RDB: current 1 MB, peak 1 MB, average 0 MB
+2024-12-24_01:16:55.15214 275:M 24 Dec 2024 01:16:55.152 * Background saving terminated with success
+2024-12-24_01:21:56.06508 275:M 24 Dec 2024 01:21:56.065 * 10 changes in 300 seconds. Saving...
+2024-12-24_01:21:56.06592 275:M 24 Dec 2024 01:21:56.065 * Background saving started by pid 864
+2024-12-24_01:21:56.08222 864:C 24 Dec 2024 01:21:56.082 * DB saved on disk
+2024-12-24_01:21:56.08314 864:C 24 Dec 2024 01:21:56.083 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+2024-12-24_01:21:56.16877 275:M 24 Dec 2024 01:21:56.168 * Background saving terminated with success
+2024-12-24_01:26:57.04236 275:M 24 Dec 2024 01:26:57.042 * 10 changes in 300 seconds. Saving...
+2024-12-24_01:26:57.04309 275:M 24 Dec 2024 01:26:57.043 * Background saving started by pid 995
+2024-12-24_01:26:57.05977 995:C 24 Dec 2024 01:26:57.059 * DB saved on disk
+2024-12-24_01:26:57.06060 995:C 24 Dec 2024 01:26:57.060 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+2024-12-24_01:26:57.14365 275:M 24 Dec 2024 01:26:57.143 * Background saving terminated with success
+2024-12-24_01:31:58.07678 275:M 24 Dec 2024 01:31:58.076 * 10 changes in 300 seconds. Saving...
+2024-12-24_01:31:58.07736 275:M 24 Dec 2024 01:31:58.077 * Background saving started by pid 1128
+2024-12-24_01:31:58.09039 1128:C 24 Dec 2024 01:31:58.090 * DB saved on disk
+2024-12-24_01:31:58.09110 1128:C 24 Dec 2024 01:31:58.091 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+2024-12-24_01:31:58.17779 275:M 24 Dec 2024 01:31:58.177 * Background saving terminated with success
+2024-12-24_01:36:59.05793 275:M 24 Dec 2024 01:36:59.057 * 10 changes in 300 seconds. Saving...
+2024-12-24_01:36:59.05842 275:M 24 Dec 2024 01:36:59.058 * Background saving started by pid 1276
+2024-12-24_01:36:59.14400 1276:C 24 Dec 2024 01:36:59.143 * DB saved on disk
+2024-12-24_01:36:59.14476 1276:C 24 Dec 2024 01:36:59.144 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+2024-12-24_01:36:59.16102 275:M 24 Dec 2024 01:36:59.160 * Background saving terminated with success
+2024-12-24_01:42:00.07221 275:M 24 Dec 2024 01:42:00.072 * 10 changes in 300 seconds. Saving...
+2024-12-24_01:42:00.07280 275:M 24 Dec 2024 01:42:00.072 * Background saving started by pid 1406
+2024-12-24_01:42:00.14214 1406:C 24 Dec 2024 01:42:00.142 * DB saved on disk
+2024-12-24_01:42:00.14272 1406:C 24 Dec 2024 01:42:00.142 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+2024-12-24_01:42:00.17354 275:M 24 Dec 2024 01:42:00.173 * Background saving terminated with success
+2024-12-24_01:47:01.08682 275:M 24 Dec 2024 01:47:01.086 * 10 changes in 300 seconds. Saving...
+2024-12-24_01:47:01.08778 275:M 24 Dec 2024 01:47:01.087 * Background saving started by pid 1540
+2024-12-24_01:47:01.10210 1540:C 24 Dec 2024 01:47:01.102 * DB saved on disk
+2024-12-24_01:47:01.10289 1540:C 24 Dec 2024 01:47:01.102 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+2024-12-24_01:47:01.18884 275:M 24 Dec 2024 01:47:01.188 * Background saving terminated with success
+2024-12-24_01:52:02.05501 275:M 24 Dec 2024 01:52:02.054 * 10 changes in 300 seconds. Saving...
+2024-12-24_01:52:02.05545 275:M 24 Dec 2024 01:52:02.055 * Background saving started by pid 1683
+2024-12-24_01:52:02.07244 1683:C 24 Dec 2024 01:52:02.072 * DB saved on disk
+2024-12-24_01:52:02.07344 1683:C 24 Dec 2024 01:52:02.073 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+2024-12-24_01:52:02.15628 275:M 24 Dec 2024 01:52:02.156 * Background saving terminated with success
+2024-12-24_01:57:03.09878 275:M 24 Dec 2024 01:57:03.098 * 10 changes in 300 seconds. Saving...
+2024-12-24_01:57:03.09931 275:M 24 Dec 2024 01:57:03.099 * Background saving started by pid 1813
+2024-12-24_01:57:03.11425 1813:C 24 Dec 2024 01:57:03.114 * DB saved on disk
+2024-12-24_01:57:03.11508 1813:C 24 Dec 2024 01:57:03.115 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+2024-12-24_01:57:03.20101 275:M 24 Dec 2024 01:57:03.200 * Background saving terminated with success
+2024-12-24_02:02:04.04639 275:M 24 Dec 2024 02:02:04.046 * 10 changes in 300 seconds. Saving...
+2024-12-24_02:02:04.04697 275:M 24 Dec 2024 02:02:04.046 * Background saving started by pid 1960
+2024-12-24_02:02:04.06036 1960:C 24 Dec 2024 02:02:04.060 * DB saved on disk
+2024-12-24_02:02:04.06091 1960:C 24 Dec 2024 02:02:04.060 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+2024-12-24_02:02:04.15714 275:M 24 Dec 2024 02:02:04.157 * Background saving terminated with success
+2024-12-24_02:07:05.01240 275:M 24 Dec 2024 02:07:05.011 * 10 changes in 300 seconds. Saving...
+2024-12-24_02:07:05.01243 275:M 24 Dec 2024 02:07:05.012 * Background saving started by pid 2089
+2024-12-24_02:07:05.03211 2089:C 24 Dec 2024 02:07:05.032 * DB saved on disk
+2024-12-24_02:07:05.03300 2089:C 24 Dec 2024 02:07:05.032 * Fork CoW for RDB: current 1 MB, peak 1 MB, average 0 MB
+2024-12-24_02:07:05.11282 275:M 24 Dec 2024 02:07:05.112 * Background saving terminated with success
+2024-12-24_02:12:06.09916 275:M 24 Dec 2024 02:12:06.099 * 10 changes in 300 seconds. Saving...
+2024-12-24_02:12:06.09970 275:M 24 Dec 2024 02:12:06.099 * Background saving started by pid 2222
+2024-12-24_02:12:06.11645 2222:C 24 Dec 2024 02:12:06.116 * DB saved on disk
+2024-12-24_02:12:06.11752 2222:C 24 Dec 2024 02:12:06.117 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+2024-12-24_02:12:06.20977 275:M 24 Dec 2024 02:12:06.209 * Background saving terminated with success
+2024-12-24_02:17:07.05195 275:M 24 Dec 2024 02:17:07.051 * 10 changes in 300 seconds. Saving...
+2024-12-24_02:17:07.05253 275:M 24 Dec 2024 02:17:07.052 * Background saving started by pid 2373
+2024-12-24_02:17:07.07017 2373:C 24 Dec 2024 02:17:07.070 * DB saved on disk
+2024-12-24_02:17:07.07109 2373:C 24 Dec 2024 02:17:07.071 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+2024-12-24_02:17:07.15295 275:M 24 Dec 2024 02:17:07.152 * Background saving terminated with success
+2024-12-24_02:22:08.08953 275:M 24 Dec 2024 02:22:08.089 * 10 changes in 300 seconds. Saving...
+2024-12-24_02:22:08.08988 275:M 24 Dec 2024 02:22:08.089 * Background saving started by pid 2507
+2024-12-24_02:22:08.10922 2507:C 24 Dec 2024 02:22:08.109 * DB saved on disk
+2024-12-24_02:22:08.10986 2507:C 24 Dec 2024 02:22:08.109 * Fork CoW for RDB: current 1 MB, peak 1 MB, average 1 MB
+2024-12-24_02:22:08.19805 275:M 24 Dec 2024 02:22:08.197 * Background saving terminated with success
+2024-12-24_02:27:09.02064 275:M 24 Dec 2024 02:27:09.020 * 10 changes in 300 seconds. Saving...
+2024-12-24_02:27:09.02180 275:M 24 Dec 2024 02:27:09.021 * Background saving started by pid 2640
+2024-12-24_02:27:09.04013 2640:C 24 Dec 2024 02:27:09.040 * DB saved on disk
+2024-12-24_02:27:09.04092 2640:C 24 Dec 2024 02:27:09.040 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+2024-12-24_02:27:09.12289 275:M 24 Dec 2024 02:27:09.122 * Background saving terminated with success
+2024-12-24_02:32:10.05223 275:M 24 Dec 2024 02:32:10.052 * 10 changes in 300 seconds. Saving...
+2024-12-24_02:32:10.05309 275:M 24 Dec 2024 02:32:10.053 * Background saving started by pid 2779
+2024-12-24_02:32:10.11839 2779:C 24 Dec 2024 02:32:10.118 * DB saved on disk
+2024-12-24_02:32:10.11958 2779:C 24 Dec 2024 02:32:10.119 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+2024-12-24_02:32:10.15402 275:M 24 Dec 2024 02:32:10.153 * Background saving terminated with success
+2024-12-24_02:37:11.04552 275:M 24 Dec 2024 02:37:11.045 * 10 changes in 300 seconds. Saving...
+2024-12-24_02:37:11.04599 275:M 24 Dec 2024 02:37:11.045 * Background saving started by pid 2906
+2024-12-24_02:37:11.06314 2906:C 24 Dec 2024 02:37:11.063 * DB saved on disk
+2024-12-24_02:37:11.06374 2906:C 24 Dec 2024 02:37:11.063 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+2024-12-24_02:37:11.14667 275:M 24 Dec 2024 02:37:11.146 * Background saving terminated with success
+2024-12-24_02:42:12.04053 275:M 24 Dec 2024 02:42:12.040 * 10 changes in 300 seconds. Saving...
+2024-12-24_02:42:12.04128 275:M 24 Dec 2024 02:42:12.041 * Background saving started by pid 3038
+2024-12-24_02:42:12.06063 3038:C 24 Dec 2024 02:42:12.060 * DB saved on disk
+2024-12-24_02:42:12.06156 3038:C 24 Dec 2024 02:42:12.061 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+2024-12-24_02:42:12.14157 275:M 24 Dec 2024 02:42:12.141 * Background saving terminated with success
+2024-12-24_02:47:13.00209 275:M 24 Dec 2024 02:47:13.002 * 10 changes in 300 seconds. Saving...
+2024-12-24_02:47:13.00280 275:M 24 Dec 2024 02:47:13.002 * Background saving started by pid 3171
+2024-12-24_02:47:13.02591 3171:C 24 Dec 2024 02:47:13.025 * DB saved on disk
+2024-12-24_02:47:13.02654 3171:C 24 Dec 2024 02:47:13.026 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+2024-12-24_02:47:13.10311 275:M 24 Dec 2024 02:47:13.103 * Background saving terminated with success
+2024-12-24_02:52:14.07462 275:M 24 Dec 2024 02:52:14.074 * 10 changes in 300 seconds. Saving...
+2024-12-24_02:52:14.07514 275:M 24 Dec 2024 02:52:14.075 * Background saving started by pid 3317
+2024-12-24_02:52:14.09223 3317:C 24 Dec 2024 02:52:14.092 * DB saved on disk
+2024-12-24_02:52:14.09277 3317:C 24 Dec 2024 02:52:14.092 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+2024-12-24_02:52:14.17722 275:M 24 Dec 2024 02:52:14.177 * Background saving terminated with success
+2024-12-24_02:57:15.05913 275:M 24 Dec 2024 02:57:15.059 * 10 changes in 300 seconds. Saving...
+2024-12-24_02:57:15.05995 275:M 24 Dec 2024 02:57:15.059 * Background saving started by pid 3447
+2024-12-24_02:57:15.07878 3447:C 24 Dec 2024 02:57:15.078 * DB saved on disk
+2024-12-24_02:57:15.07948 3447:C 24 Dec 2024 02:57:15.079 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+2024-12-24_02:57:15.16082 275:M 24 Dec 2024 02:57:15.160 * Background saving terminated with success
+2024-12-24_03:02:16.06429 275:M 24 Dec 2024 03:02:16.064 * 10 changes in 300 seconds. Saving...
+2024-12-24_03:02:16.06478 275:M 24 Dec 2024 03:02:16.064 * Background saving started by pid 3594
+2024-12-24_03:02:16.08281 3594:C 24 Dec 2024 03:02:16.082 * DB saved on disk
+2024-12-24_03:02:16.08364 3594:C 24 Dec 2024 03:02:16.083 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+2024-12-24_03:02:16.16689 275:M 24 Dec 2024 03:02:16.166 * Background saving terminated with success
+2024-12-24_03:07:17.06960 275:M 24 Dec 2024 03:07:17.069 * 10 changes in 300 seconds. Saving...
+2024-12-24_03:07:17.07016 275:M 24 Dec 2024 03:07:17.070 * Background saving started by pid 3727
+2024-12-24_03:07:17.09094 3727:C 24 Dec 2024 03:07:17.090 * DB saved on disk
+2024-12-24_03:07:17.09156 3727:C 24 Dec 2024 03:07:17.091 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+2024-12-24_03:07:17.17132 275:M 24 Dec 2024 03:07:17.171 * Background saving terminated with success
+2024-12-24_03:12:18.07831 275:M 24 Dec 2024 03:12:18.078 * 10 changes in 300 seconds. Saving...
+2024-12-24_03:12:18.07888 275:M 24 Dec 2024 03:12:18.078 * Background saving started by pid 3861
+2024-12-24_03:12:18.17651 3861:C 24 Dec 2024 03:12:18.176 * DB saved on disk
+2024-12-24_03:12:18.17753 3861:C 24 Dec 2024 03:12:18.177 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+2024-12-24_03:12:18.17931 275:M 24 Dec 2024 03:12:18.179 * Background saving terminated with success
+2024-12-24_03:17:19.10001 275:M 24 Dec 2024 03:17:19.099 * 10 changes in 300 seconds. Saving...
+2024-12-24_03:17:19.10059 275:M 24 Dec 2024 03:17:19.100 * Background saving started by pid 4007
+2024-12-24_03:17:19.12155 4007:C 24 Dec 2024 03:17:19.121 * DB saved on disk
+2024-12-24_03:17:19.12226 4007:C 24 Dec 2024 03:17:19.122 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+2024-12-24_03:17:19.20119 275:M 24 Dec 2024 03:17:19.201 * Background saving terminated with success
+2024-12-24_03:22:20.09853 275:M 24 Dec 2024 03:22:20.098 * 10 changes in 300 seconds. Saving...
+2024-12-24_03:22:20.09910 275:M 24 Dec 2024 03:22:20.099 * Background saving started by pid 4140
+2024-12-24_03:22:20.11920 4140:C 24 Dec 2024 03:22:20.119 * DB saved on disk
+2024-12-24_03:22:20.11983 4140:C 24 Dec 2024 03:22:20.119 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+2024-12-24_03:22:20.19966 275:M 24 Dec 2024 03:22:20.199 * Background saving terminated with success
+2024-12-24_03:27:21.01357 275:M 24 Dec 2024 03:27:21.013 * 10 changes in 300 seconds. Saving...
+2024-12-24_03:27:21.01399 275:M 24 Dec 2024 03:27:21.013 * Background saving started by pid 4278
+2024-12-24_03:27:21.03735 4278:C 24 Dec 2024 03:27:21.037 * DB saved on disk
+2024-12-24_03:27:21.03811 4278:C 24 Dec 2024 03:27:21.038 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+2024-12-24_03:27:21.11470 275:M 24 Dec 2024 03:27:21.114 * Background saving terminated with success
+2024-12-24_03:32:22.09900 275:M 24 Dec 2024 03:32:22.098 * 10 changes in 300 seconds. Saving...
+2024-12-24_03:32:22.09973 275:M 24 Dec 2024 03:32:22.099 * Background saving started by pid 4421
+2024-12-24_03:32:22.12246 4421:C 24 Dec 2024 03:32:22.122 * DB saved on disk
+2024-12-24_03:32:22.12328 4421:C 24 Dec 2024 03:32:22.123 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+2024-12-24_03:32:22.20040 275:M 24 Dec 2024 03:32:22.200 * Background saving terminated with success
+2024-12-24_03:37:23.08793 275:M 24 Dec 2024 03:37:23.087 * 10 changes in 300 seconds. Saving...
+2024-12-24_03:37:23.08879 275:M 24 Dec 2024 03:37:23.088 * Background saving started by pid 4553
+2024-12-24_03:37:23.11080 4553:C 24 Dec 2024 03:37:23.110 * DB saved on disk
+2024-12-24_03:37:23.11152 4553:C 24 Dec 2024 03:37:23.111 * Fork CoW for RDB: current 1 MB, peak 1 MB, average 1 MB
+2024-12-24_03:37:23.19006 275:M 24 Dec 2024 03:37:23.190 * Background saving terminated with success
+2024-12-24_03:42:24.05389 275:M 24 Dec 2024 03:42:24.053 * 10 changes in 300 seconds. Saving...
+2024-12-24_03:42:24.05446 275:M 24 Dec 2024 03:42:24.054 * Background saving started by pid 4687
+2024-12-24_03:42:24.07650 4687:C 24 Dec 2024 03:42:24.076 * DB saved on disk
+2024-12-24_03:42:24.07730 4687:C 24 Dec 2024 03:42:24.077 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+2024-12-24_03:42:24.18198 275:M 24 Dec 2024 03:42:24.181 * Background saving terminated with success
+2024-12-24_03:47:25.02928 275:M 24 Dec 2024 03:47:25.029 * 10 changes in 300 seconds. Saving...
+2024-12-24_03:47:25.02999 275:M 24 Dec 2024 03:47:25.029 * Background saving started by pid 4815
+2024-12-24_03:47:25.05323 4815:C 24 Dec 2024 03:47:25.053 * DB saved on disk
+2024-12-24_03:47:25.05430 4815:C 24 Dec 2024 03:47:25.054 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+2024-12-24_03:47:25.13083 275:M 24 Dec 2024 03:47:25.130 * Background saving terminated with success
+2024-12-24_03:52:26.00134 275:M 24 Dec 2024 03:52:26.001 * 10 changes in 300 seconds. Saving...
+2024-12-24_03:52:26.00184 275:M 24 Dec 2024 03:52:26.001 * Background saving started by pid 4960
+2024-12-24_03:52:26.03206 4960:C 24 Dec 2024 03:52:26.031 * DB saved on disk
+2024-12-24_03:52:26.03309 4960:C 24 Dec 2024 03:52:26.033 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+2024-12-24_03:52:26.10234 275:M 24 Dec 2024 03:52:26.102 * Background saving terminated with success
+2024-12-24_03:57:27.00500 275:M 24 Dec 2024 03:57:27.004 * 10 changes in 300 seconds. Saving...
+2024-12-24_03:57:27.00568 275:M 24 Dec 2024 03:57:27.005 * Background saving started by pid 5094
+2024-12-24_03:57:27.03224 5094:C 24 Dec 2024 03:57:27.032 * DB saved on disk
+2024-12-24_03:57:27.03281 5094:C 24 Dec 2024 03:57:27.032 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+2024-12-24_03:57:27.10593 275:M 24 Dec 2024 03:57:27.105 * Background saving terminated with success
+2024-12-24_04:02:28.07599 275:M 24 Dec 2024 04:02:28.075 * 10 changes in 300 seconds. Saving...
+2024-12-24_04:02:28.07675 275:M 24 Dec 2024 04:02:28.076 * Background saving started by pid 5245
+2024-12-24_04:02:28.09987 5245:C 24 Dec 2024 04:02:28.099 * DB saved on disk
+2024-12-24_04:02:28.10046 5245:C 24 Dec 2024 04:02:28.100 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+2024-12-24_04:02:28.18779 275:M 24 Dec 2024 04:02:28.187 * Background saving terminated with success
+2024-12-24_04:07:29.09324 275:M 24 Dec 2024 04:07:29.093 * 10 changes in 300 seconds. Saving...
+2024-12-24_04:07:29.09375 275:M 24 Dec 2024 04:07:29.093 * Background saving started by pid 5374
+2024-12-24_04:07:29.11782 5374:C 24 Dec 2024 04:07:29.117 * DB saved on disk
+2024-12-24_04:07:29.11879 5374:C 24 Dec 2024 04:07:29.118 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+2024-12-24_04:07:29.19506 275:M 24 Dec 2024 04:07:29.195 * Background saving terminated with success
+2024-12-24_04:12:30.08977 275:M 24 Dec 2024 04:12:30.089 * 10 changes in 300 seconds. Saving...
+2024-12-24_04:12:30.09020 275:M 24 Dec 2024 04:12:30.090 * Background saving started by pid 5507
+2024-12-24_04:12:30.11216 5507:C 24 Dec 2024 04:12:30.112 * DB saved on disk
+2024-12-24_04:12:30.11285 5507:C 24 Dec 2024 04:12:30.112 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+2024-12-24_04:12:30.19094 275:M 24 Dec 2024 04:12:30.190 * Background saving terminated with success
+2024-12-24_04:17:31.04271 275:M 24 Dec 2024 04:17:31.042 * 10 changes in 300 seconds. Saving...
+2024-12-24_04:17:31.04329 275:M 24 Dec 2024 04:17:31.043 * Background saving started by pid 5652
+2024-12-24_04:17:31.06617 5652:C 24 Dec 2024 04:17:31.066 * DB saved on disk
+2024-12-24_04:17:31.06683 5652:C 24 Dec 2024 04:17:31.066 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+2024-12-24_04:17:31.14785 275:M 24 Dec 2024 04:17:31.147 * Background saving terminated with success
+2024-12-24_04:22:32.06743 275:M 24 Dec 2024 04:22:32.067 * 10 changes in 300 seconds. Saving...
+2024-12-24_04:22:32.06792 275:M 24 Dec 2024 04:22:32.067 * Background saving started by pid 5785
+2024-12-24_04:22:32.09191 5785:C 24 Dec 2024 04:22:32.091 * DB saved on disk
+2024-12-24_04:22:32.09262 5785:C 24 Dec 2024 04:22:32.092 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+2024-12-24_04:22:32.16846 275:M 24 Dec 2024 04:22:32.168 * Background saving terminated with success
+2024-12-24_04:27:33.01201 275:M 24 Dec 2024 04:27:33.011 * 10 changes in 300 seconds. Saving...
+2024-12-24_04:27:33.01264 275:M 24 Dec 2024 04:27:33.012 * Background saving started by pid 5915
+2024-12-24_04:27:33.03686 5915:C 24 Dec 2024 04:27:33.036 * DB saved on disk
+2024-12-24_04:27:33.03763 5915:C 24 Dec 2024 04:27:33.037 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+2024-12-24_04:27:33.11328 275:M 24 Dec 2024 04:27:33.113 * Background saving terminated with success
+2024-12-24_04:32:34.01714 275:M 24 Dec 2024 04:32:34.017 * 10 changes in 300 seconds. Saving...
+2024-12-24_04:32:34.01785 275:M 24 Dec 2024 04:32:34.017 * Background saving started by pid 6064
+2024-12-24_04:32:34.04250 6064:C 24 Dec 2024 04:32:34.042 * DB saved on disk
+2024-12-24_04:32:34.04317 6064:C 24 Dec 2024 04:32:34.043 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+2024-12-24_04:32:34.12123 275:M 24 Dec 2024 04:32:34.121 * Background saving terminated with success
+2024-12-24_04:37:35.02243 275:M 24 Dec 2024 04:37:35.022 * 10 changes in 300 seconds. Saving...
+2024-12-24_04:37:35.02352 275:M 24 Dec 2024 04:37:35.023 * Background saving started by pid 6193
+2024-12-24_04:37:35.05120 6193:C 24 Dec 2024 04:37:35.051 * DB saved on disk
+2024-12-24_04:37:35.05196 6193:C 24 Dec 2024 04:37:35.051 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+2024-12-24_04:37:35.13417 275:M 24 Dec 2024 04:37:35.134 * Background saving terminated with success
+2024-12-24_04:42:36.01757 275:M 24 Dec 2024 04:42:36.017 * 10 changes in 300 seconds. Saving...
+2024-12-24_04:42:36.01820 275:M 24 Dec 2024 04:42:36.018 * Background saving started by pid 6324
+2024-12-24_04:42:36.04576 6324:C 24 Dec 2024 04:42:36.045 * DB saved on disk
+2024-12-24_04:42:36.04636 6324:C 24 Dec 2024 04:42:36.046 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+2024-12-24_04:42:36.11983 275:M 24 Dec 2024 04:42:36.119 * Background saving terminated with success
+2024-12-24_04:47:37.06952 275:M 24 Dec 2024 04:47:37.069 * 10 changes in 300 seconds. Saving...
+2024-12-24_04:47:37.07001 275:M 24 Dec 2024 04:47:37.069 * Background saving started by pid 6453
+2024-12-24_04:47:37.09931 6453:C 24 Dec 2024 04:47:37.099 * DB saved on disk
+2024-12-24_04:47:37.10005 6453:C 24 Dec 2024 04:47:37.100 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+2024-12-24_04:47:37.17540 275:M 24 Dec 2024 04:47:37.175 * Background saving terminated with success
+2024-12-24_04:52:38.05460 275:M 24 Dec 2024 04:52:38.054 * 10 changes in 300 seconds. Saving...
+2024-12-24_04:52:38.05519 275:M 24 Dec 2024 04:52:38.055 * Background saving started by pid 6595
+2024-12-24_04:52:38.08035 6595:C 24 Dec 2024 04:52:38.080 * DB saved on disk
+2024-12-24_04:52:38.08098 6595:C 24 Dec 2024 04:52:38.080 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+2024-12-24_04:52:38.15597 275:M 24 Dec 2024 04:52:38.155 * Background saving terminated with success
+2024-12-24_04:57:39.05346 275:M 24 Dec 2024 04:57:39.053 * 10 changes in 300 seconds. Saving...
+2024-12-24_04:57:39.05431 275:M 24 Dec 2024 04:57:39.054 * Background saving started by pid 6728
+2024-12-24_04:57:39.07931 6728:C 24 Dec 2024 04:57:39.079 * DB saved on disk
+2024-12-24_04:57:39.08008 6728:C 24 Dec 2024 04:57:39.080 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+2024-12-24_04:57:39.15574 275:M 24 Dec 2024 04:57:39.155 * Background saving terminated with success
+2024-12-24_05:02:40.03603 275:M 24 Dec 2024 05:02:40.035 * 10 changes in 300 seconds. Saving...
+2024-12-24_05:02:40.03658 275:M 24 Dec 2024 05:02:40.036 * Background saving started by pid 6873
+2024-12-24_05:02:40.06184 6873:C 24 Dec 2024 05:02:40.061 * DB saved on disk
+2024-12-24_05:02:40.06273 6873:C 24 Dec 2024 05:02:40.062 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+2024-12-24_05:02:40.13744 275:M 24 Dec 2024 05:02:40.137 * Background saving terminated with success
+2024-12-24_05:07:41.07352 275:M 24 Dec 2024 05:07:41.073 * 10 changes in 300 seconds. Saving...
+2024-12-24_05:07:41.07405 275:M 24 Dec 2024 05:07:41.074 * Background saving started by pid 7003
+2024-12-24_05:07:41.10054 7003:C 24 Dec 2024 05:07:41.100 * DB saved on disk
+2024-12-24_05:07:41.10111 7003:C 24 Dec 2024 05:07:41.101 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+2024-12-24_05:07:41.17849 275:M 24 Dec 2024 05:07:41.178 * Background saving terminated with success
+2024-12-24_05:12:42.03048 275:M 24 Dec 2024 05:12:42.030 * 10 changes in 300 seconds. Saving...
+2024-12-24_05:12:42.03092 275:M 24 Dec 2024 05:12:42.030 * Background saving started by pid 7146
+2024-12-24_05:12:42.05907 7146:C 24 Dec 2024 05:12:42.059 * DB saved on disk
+2024-12-24_05:12:42.05971 7146:C 24 Dec 2024 05:12:42.059 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+2024-12-24_05:12:42.13418 275:M 24 Dec 2024 05:12:42.134 * Background saving terminated with success
+2024-12-24_05:17:43.09454 275:M 24 Dec 2024 05:17:43.094 * 10 changes in 300 seconds. Saving...
+2024-12-24_05:17:43.09514 275:M 24 Dec 2024 05:17:43.095 * Background saving started by pid 7292
+2024-12-24_05:17:43.12212 7292:C 24 Dec 2024 05:17:43.122 * DB saved on disk
+2024-12-24_05:17:43.12282 7292:C 24 Dec 2024 05:17:43.122 * Fork CoW for RDB: current 1 MB, peak 1 MB, average 0 MB
+2024-12-24_05:17:43.20229 275:M 24 Dec 2024 05:17:43.202 * Background saving terminated with success
+2024-12-24_05:22:44.03614 275:M 24 Dec 2024 05:22:44.036 * 10 changes in 300 seconds. Saving...
+2024-12-24_05:22:44.03658 275:M 24 Dec 2024 05:22:44.036 * Background saving started by pid 7423
+2024-12-24_05:22:44.06364 7423:C 24 Dec 2024 05:22:44.063 * DB saved on disk
+2024-12-24_05:22:44.06424 7423:C 24 Dec 2024 05:22:44.064 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+2024-12-24_05:22:44.14203 275:M 24 Dec 2024 05:22:44.141 * Background saving terminated with success
+2024-12-24_05:27:45.07520 275:M 24 Dec 2024 05:27:45.075 * 10 changes in 300 seconds. Saving...
+2024-12-24_05:27:45.07599 275:M 24 Dec 2024 05:27:45.075 * Background saving started by pid 7556
+2024-12-24_05:27:45.12929 7556:C 24 Dec 2024 05:27:45.128 * DB saved on disk
+2024-12-24_05:27:45.13029 7556:C 24 Dec 2024 05:27:45.130 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+2024-12-24_05:27:45.17680 275:M 24 Dec 2024 05:27:45.176 * Background saving terminated with success
+2024-12-24_05:32:46.04848 275:M 24 Dec 2024 05:32:46.048 * 10 changes in 300 seconds. Saving...
+2024-12-24_05:32:46.04915 275:M 24 Dec 2024 05:32:46.049 * Background saving started by pid 7704
+2024-12-24_05:32:46.07975 7704:C 24 Dec 2024 05:32:46.079 * DB saved on disk
+2024-12-24_05:32:46.08078 7704:C 24 Dec 2024 05:32:46.080 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+2024-12-24_05:32:46.15066 275:M 24 Dec 2024 05:32:46.150 * Background saving terminated with success
+2024-12-24_05:37:47.02543 275:M 24 Dec 2024 05:37:47.025 * 10 changes in 300 seconds. Saving...
+2024-12-24_05:37:47.02617 275:M 24 Dec 2024 05:37:47.026 * Background saving started by pid 7832
+2024-12-24_05:37:47.05959 7832:C 24 Dec 2024 05:37:47.059 * DB saved on disk
+2024-12-24_05:37:47.06032 7832:C 24 Dec 2024 05:37:47.060 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+2024-12-24_05:37:47.12708 275:M 24 Dec 2024 05:37:47.127 * Background saving terminated with success
+2024-12-24_05:42:48.07700 275:M 24 Dec 2024 05:42:48.076 * 10 changes in 300 seconds. Saving...
+2024-12-24_05:42:48.07757 275:M 24 Dec 2024 05:42:48.077 * Background saving started by pid 7962
+2024-12-24_05:42:48.11192 7962:C 24 Dec 2024 05:42:48.111 * DB saved on disk
+2024-12-24_05:42:48.11253 7962:C 24 Dec 2024 05:42:48.112 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+2024-12-24_05:42:48.18085 275:M 24 Dec 2024 05:42:48.180 * Background saving terminated with success
+2024-12-24_05:47:49.09034 275:M 24 Dec 2024 05:47:49.090 * 10 changes in 300 seconds. Saving...
+2024-12-24_05:47:49.09091 275:M 24 Dec 2024 05:47:49.090 * Background saving started by pid 8090
+2024-12-24_05:47:49.12412 8090:C 24 Dec 2024 05:47:49.124 * DB saved on disk
+2024-12-24_05:47:49.12496 8090:C 24 Dec 2024 05:47:49.124 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+2024-12-24_05:47:49.19591 275:M 24 Dec 2024 05:47:49.195 * Background saving terminated with success
+2024-12-24_05:52:50.05848 275:M 24 Dec 2024 05:52:50.058 * 10 changes in 300 seconds. Saving...
+2024-12-24_05:52:50.05905 275:M 24 Dec 2024 05:52:50.059 * Background saving started by pid 8233
+2024-12-24_05:52:50.09059 8233:C 24 Dec 2024 05:52:50.090 * DB saved on disk
+2024-12-24_05:52:50.09156 8233:C 24 Dec 2024 05:52:50.091 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+2024-12-24_05:52:50.16030 275:M 24 Dec 2024 05:52:50.160 * Background saving terminated with success
+2024-12-24_05:57:51.02294 275:M 24 Dec 2024 05:57:51.022 * 10 changes in 300 seconds. Saving...
+2024-12-24_05:57:51.02351 275:M 24 Dec 2024 05:57:51.023 * Background saving started by pid 8367
+2024-12-24_05:57:51.05738 8367:C 24 Dec 2024 05:57:51.057 * DB saved on disk
+2024-12-24_05:57:51.05803 8367:C 24 Dec 2024 05:57:51.057 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+2024-12-24_05:57:51.13008 275:M 24 Dec 2024 05:57:51.130 * Background saving terminated with success
+2024-12-24_06:02:52.05456 275:M 24 Dec 2024 06:02:52.054 * 10 changes in 300 seconds. Saving...
+2024-12-24_06:02:52.05508 275:M 24 Dec 2024 06:02:52.055 * Background saving started by pid 8513
+2024-12-24_06:02:52.08859 8513:C 24 Dec 2024 06:02:52.088 * DB saved on disk
+2024-12-24_06:02:52.08927 8513:C 24 Dec 2024 06:02:52.089 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+2024-12-24_06:02:52.15616 275:M 24 Dec 2024 06:02:52.156 * Background saving terminated with success
+2024-12-24_06:07:53.04304 275:M 24 Dec 2024 06:07:53.042 * 10 changes in 300 seconds. Saving...
+2024-12-24_06:07:53.04357 275:M 24 Dec 2024 06:07:53.043 * Background saving started by pid 8641
+2024-12-24_06:07:53.07471 8641:C 24 Dec 2024 06:07:53.074 * DB saved on disk
+2024-12-24_06:07:53.07572 8641:C 24 Dec 2024 06:07:53.075 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+2024-12-24_06:07:53.14382 275:M 24 Dec 2024 06:07:53.143 * Background saving terminated with success
+2024-12-24_06:12:54.06919 275:M 24 Dec 2024 06:12:54.069 * 10 changes in 300 seconds. Saving...
+2024-12-24_06:12:54.07005 275:M 24 Dec 2024 06:12:54.069 * Background saving started by pid 8777
+2024-12-24_06:12:54.09937 8777:C 24 Dec 2024 06:12:54.099 * DB saved on disk
+2024-12-24_06:12:54.10000 8777:C 24 Dec 2024 06:12:54.099 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+2024-12-24_06:12:54.17031 275:M 24 Dec 2024 06:12:54.170 * Background saving terminated with success
+2024-12-24_06:17:55.08171 275:M 24 Dec 2024 06:17:55.081 * 10 changes in 300 seconds. Saving...
+2024-12-24_06:17:55.08241 275:M 24 Dec 2024 06:17:55.082 * Background saving started by pid 8923
+2024-12-24_06:17:55.19534 8923:C 24 Dec 2024 06:17:55.195 * DB saved on disk
+2024-12-24_06:17:55.19632 8923:C 24 Dec 2024 06:17:55.196 * Fork CoW for RDB: current 1 MB, peak 1 MB, average 0 MB
+2024-12-24_06:17:55.28333 275:M 24 Dec 2024 06:17:55.283 * Background saving terminated with success
+2024-12-24_06:22:56.04658 275:M 24 Dec 2024 06:22:56.046 * 10 changes in 300 seconds. Saving...
+2024-12-24_06:22:56.04726 275:M 24 Dec 2024 06:22:56.047 * Background saving started by pid 9058
+2024-12-24_06:22:56.15598 9058:C 24 Dec 2024 06:22:56.155 * DB saved on disk
+2024-12-24_06:22:56.15689 9058:C 24 Dec 2024 06:22:56.156 * Fork CoW for RDB: current 1 MB, peak 1 MB, average 0 MB
+2024-12-24_06:22:56.25155 275:M 24 Dec 2024 06:22:56.251 * Background saving terminated with success
+2024-12-24_06:27:57.09783 275:M 24 Dec 2024 06:27:57.097 * 10 changes in 300 seconds. Saving...
+2024-12-24_06:27:57.09888 275:M 24 Dec 2024 06:27:57.098 * Background saving started by pid 9187
+2024-12-24_06:27:57.13906 9187:C 24 Dec 2024 06:27:57.139 * DB saved on disk
+2024-12-24_06:27:57.13988 9187:C 24 Dec 2024 06:27:57.139 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+2024-12-24_06:27:57.19989 275:M 24 Dec 2024 06:27:57.199 * Background saving terminated with success
+2024-12-24_06:32:58.06815 275:M 24 Dec 2024 06:32:58.068 * 10 changes in 300 seconds. Saving...
+2024-12-24_06:32:58.06881 275:M 24 Dec 2024 06:32:58.068 * Background saving started by pid 9329
+2024-12-24_06:32:58.10031 9329:C 24 Dec 2024 06:32:58.100 * DB saved on disk
+2024-12-24_06:32:58.10095 9329:C 24 Dec 2024 06:32:58.100 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+2024-12-24_06:32:58.16953 275:M 24 Dec 2024 06:32:58.169 * Background saving terminated with success
+2024-12-24_06:37:59.05770 275:M 24 Dec 2024 06:37:59.057 * 10 changes in 300 seconds. Saving...
+2024-12-24_06:37:59.05815 275:M 24 Dec 2024 06:37:59.058 * Background saving started by pid 9455
+2024-12-24_06:37:59.09409 9455:C 24 Dec 2024 06:37:59.094 * DB saved on disk
+2024-12-24_06:37:59.09489 9455:C 24 Dec 2024 06:37:59.094 * Fork CoW for RDB: current 1 MB, peak 1 MB, average 1 MB
+2024-12-24_06:37:59.15931 275:M 24 Dec 2024 06:37:59.159 * Background saving terminated with success
+2024-12-24_06:43:00.09432 275:M 24 Dec 2024 06:43:00.094 * 10 changes in 300 seconds. Saving...
+2024-12-24_06:43:00.09482 275:M 24 Dec 2024 06:43:00.094 * Background saving started by pid 9583
+2024-12-24_06:43:00.12792 9583:C 24 Dec 2024 06:43:00.127 * DB saved on disk
+2024-12-24_06:43:00.12860 9583:C 24 Dec 2024 06:43:00.128 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+2024-12-24_06:43:00.19780 275:M 24 Dec 2024 06:43:00.197 * Background saving terminated with success
+2024-12-24_06:48:01.04677 275:M 24 Dec 2024 06:48:01.046 * 10 changes in 300 seconds. Saving...
+2024-12-24_06:48:01.04741 275:M 24 Dec 2024 06:48:01.047 * Background saving started by pid 9710
+2024-12-24_06:48:01.07884 9710:C 24 Dec 2024 06:48:01.078 * DB saved on disk
+2024-12-24_06:48:01.07952 9710:C 24 Dec 2024 06:48:01.079 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+2024-12-24_06:48:01.14788 275:M 24 Dec 2024 06:48:01.147 * Background saving terminated with success
+2024-12-24_06:53:02.09277 275:M 24 Dec 2024 06:53:02.092 * 10 changes in 300 seconds. Saving...
+2024-12-24_06:53:02.09333 275:M 24 Dec 2024 06:53:02.093 * Background saving started by pid 9856
+2024-12-24_06:53:02.12434 9856:C 24 Dec 2024 06:53:02.124 * DB saved on disk
+2024-12-24_06:53:02.12490 9856:C 24 Dec 2024 06:53:02.124 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+2024-12-24_06:53:02.19405 275:M 24 Dec 2024 06:53:02.193 * Background saving terminated with success
+2024-12-24_06:58:03.06406 275:M 24 Dec 2024 06:58:03.063 * 10 changes in 300 seconds. Saving...
+2024-12-24_06:58:03.06525 275:M 24 Dec 2024 06:58:03.065 * Background saving started by pid 9983
+2024-12-24_06:58:03.11732 9983:C 24 Dec 2024 06:58:03.117 * DB saved on disk
+2024-12-24_06:58:03.11836 9983:C 24 Dec 2024 06:58:03.118 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+2024-12-24_06:58:03.17036 275:M 24 Dec 2024 06:58:03.170 * Background saving terminated with success
+2024-12-24_07:03:04.00577 275:M 24 Dec 2024 07:03:04.005 * 10 changes in 300 seconds. Saving...
+2024-12-24_07:03:04.00653 275:M 24 Dec 2024 07:03:04.006 * Background saving started by pid 10127
+2024-12-24_07:03:04.06012 10127:C 24 Dec 2024 07:03:04.060 * DB saved on disk
+2024-12-24_07:03:04.06126 10127:C 24 Dec 2024 07:03:04.061 * Fork CoW for RDB: current 1 MB, peak 1 MB, average 1 MB
+2024-12-24_07:03:04.10708 275:M 24 Dec 2024 07:03:04.107 * Background saving terminated with success
+2024-12-24_07:08:05.02720 275:M 24 Dec 2024 07:08:05.027 * 10 changes in 300 seconds. Saving...
+2024-12-24_07:08:05.02823 275:M 24 Dec 2024 07:08:05.028 * Background saving started by pid 10259
+2024-12-24_07:08:05.06012 10259:C 24 Dec 2024 07:08:05.060 * DB saved on disk
+2024-12-24_07:08:05.06100 10259:C 24 Dec 2024 07:08:05.060 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+2024-12-24_07:08:05.12938 275:M 24 Dec 2024 07:08:05.129 * Background saving terminated with success
+2024-12-24_07:13:06.08868 275:M 24 Dec 2024 07:13:06.088 * 10 changes in 300 seconds. Saving...
+2024-12-24_07:13:06.08984 275:M 24 Dec 2024 07:13:06.089 * Background saving started by pid 10395
+2024-12-24_07:13:06.13518 10395:C 24 Dec 2024 07:13:06.135 * DB saved on disk
+2024-12-24_07:13:06.13612 10395:C 24 Dec 2024 07:13:06.136 * Fork CoW for RDB: current 1 MB, peak 1 MB, average 1 MB
+2024-12-24_07:13:06.19050 275:M 24 Dec 2024 07:13:06.190 * Background saving terminated with success
+2024-12-24_07:18:07.07027 275:M 24 Dec 2024 07:18:07.070 * 10 changes in 300 seconds. Saving...
+2024-12-24_07:18:07.07097 275:M 24 Dec 2024 07:18:07.070 * Background saving started by pid 10541
+2024-12-24_07:18:07.11004 10541:C 24 Dec 2024 07:18:07.109 * DB saved on disk
+2024-12-24_07:18:07.11081 10541:C 24 Dec 2024 07:18:07.110 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+2024-12-24_07:18:07.17353 275:M 24 Dec 2024 07:18:07.173 * Background saving terminated with success
+2024-12-24_07:23:08.05226 275:M 24 Dec 2024 07:23:08.052 * 10 changes in 300 seconds. Saving...
+2024-12-24_07:23:08.05391 275:M 24 Dec 2024 07:23:08.053 * Background saving started by pid 10668
+2024-12-24_07:23:08.08822 10668:C 24 Dec 2024 07:23:08.088 * DB saved on disk
+2024-12-24_07:23:08.08906 10668:C 24 Dec 2024 07:23:08.089 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+2024-12-24_07:23:08.15429 275:M 24 Dec 2024 07:23:08.154 * Background saving terminated with success
+2024-12-24_07:28:09.02333 275:M 24 Dec 2024 07:28:09.022 * 10 changes in 300 seconds. Saving...
+2024-12-24_07:28:09.02337 275:M 24 Dec 2024 07:28:09.023 * Background saving started by pid 10800
+2024-12-24_07:28:09.05882 10800:C 24 Dec 2024 07:28:09.058 * DB saved on disk
+2024-12-24_07:28:09.05948 10800:C 24 Dec 2024 07:28:09.059 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+2024-12-24_07:28:09.12376 275:M 24 Dec 2024 07:28:09.123 * Background saving terminated with success
+2024-12-24_07:33:10.04317 275:M 24 Dec 2024 07:33:10.043 * 10 changes in 300 seconds. Saving...
+2024-12-24_07:33:10.04370 275:M 24 Dec 2024 07:33:10.043 * Background saving started by pid 10947
+2024-12-24_07:33:10.07757 10947:C 24 Dec 2024 07:33:10.077 * DB saved on disk
+2024-12-24_07:33:10.07830 10947:C 24 Dec 2024 07:33:10.078 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+2024-12-24_07:33:10.14410 275:M 24 Dec 2024 07:33:10.144 * Background saving terminated with success
+2024-12-24_07:38:11.00838 275:M 24 Dec 2024 07:38:11.008 * 10 changes in 300 seconds. Saving...
+2024-12-24_07:38:11.00901 275:M 24 Dec 2024 07:38:11.008 * Background saving started by pid 11076
+2024-12-24_07:38:11.04800 11076:C 24 Dec 2024 07:38:11.047 * DB saved on disk
+2024-12-24_07:38:11.04903 11076:C 24 Dec 2024 07:38:11.048 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+2024-12-24_07:38:11.11091 275:M 24 Dec 2024 07:38:11.110 * Background saving terminated with success
+2024-12-24_07:43:12.01078 275:M 24 Dec 2024 07:43:12.010 * 10 changes in 300 seconds. Saving...
+2024-12-24_07:43:12.01146 275:M 24 Dec 2024 07:43:12.011 * Background saving started by pid 11207
+2024-12-24_07:43:12.04974 11207:C 24 Dec 2024 07:43:12.049 * DB saved on disk
+2024-12-24_07:43:12.05038 11207:C 24 Dec 2024 07:43:12.050 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+2024-12-24_07:43:12.11868 275:M 24 Dec 2024 07:43:12.118 * Background saving terminated with success
+2024-12-24_07:48:13.06021 275:M 24 Dec 2024 07:48:13.060 * 10 changes in 300 seconds. Saving...
+2024-12-24_07:48:13.06120 275:M 24 Dec 2024 07:48:13.061 * Background saving started by pid 11353
+2024-12-24_07:48:13.10350 11353:C 24 Dec 2024 07:48:13.103 * DB saved on disk
+2024-12-24_07:48:13.10412 11353:C 24 Dec 2024 07:48:13.104 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+2024-12-24_07:48:13.16390 275:M 24 Dec 2024 07:48:13.163 * Background saving terminated with success
+2024-12-24_07:53:14.00188 275:M 24 Dec 2024 07:53:14.001 * 10 changes in 300 seconds. Saving...
+2024-12-24_07:53:14.00256 275:M 24 Dec 2024 07:53:14.002 * Background saving started by pid 11483
+2024-12-24_07:53:14.04020 11483:C 24 Dec 2024 07:53:14.040 * DB saved on disk
+2024-12-24_07:53:14.04106 11483:C 24 Dec 2024 07:53:14.041 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+2024-12-24_07:53:14.10389 275:M 24 Dec 2024 07:53:14.103 * Background saving terminated with success
+2024-12-24_07:58:15.01805 275:M 24 Dec 2024 07:58:15.017 * 10 changes in 300 seconds. Saving...
+2024-12-24_07:58:15.01873 275:M 24 Dec 2024 07:58:15.018 * Background saving started by pid 11612
+2024-12-24_07:58:15.05641 11612:C 24 Dec 2024 07:58:15.056 * DB saved on disk
+2024-12-24_07:58:15.05706 11612:C 24 Dec 2024 07:58:15.057 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+2024-12-24_07:58:15.12009 275:M 24 Dec 2024 07:58:15.120 * Background saving terminated with success
+2024-12-24_08:03:16.04170 275:M 24 Dec 2024 08:03:16.041 * 10 changes in 300 seconds. Saving...
+2024-12-24_08:03:16.04223 275:M 24 Dec 2024 08:03:16.042 * Background saving started by pid 11759
+2024-12-24_08:03:16.08200 11759:C 24 Dec 2024 08:03:16.081 * DB saved on disk
+2024-12-24_08:03:16.08307 11759:C 24 Dec 2024 08:03:16.082 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+2024-12-24_08:03:16.14292 275:M 24 Dec 2024 08:03:16.142 * Background saving terminated with success
+2024-12-24_08:08:17.09477 275:M 24 Dec 2024 08:08:17.094 * 10 changes in 300 seconds. Saving...
+2024-12-24_08:08:17.09607 275:M 24 Dec 2024 08:08:17.095 * Background saving started by pid 11894
+2024-12-24_08:08:17.13713 11894:C 24 Dec 2024 08:08:17.137 * DB saved on disk
+2024-12-24_08:08:17.13773 11894:C 24 Dec 2024 08:08:17.137 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+2024-12-24_08:08:17.19728 275:M 24 Dec 2024 08:08:17.197 * Background saving terminated with success
+2024-12-24_08:13:18.00283 275:M 24 Dec 2024 08:13:18.002 * 10 changes in 300 seconds. Saving...
+2024-12-24_08:13:18.00355 275:M 24 Dec 2024 08:13:18.003 * Background saving started by pid 12029
+2024-12-24_08:13:18.05564 12029:C 24 Dec 2024 08:13:18.055 * DB saved on disk
+2024-12-24_08:13:18.05646 12029:C 24 Dec 2024 08:13:18.056 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+2024-12-24_08:13:18.10598 275:M 24 Dec 2024 08:13:18.105 * Background saving terminated with success
+2024-12-24_08:18:19.09844 275:M 24 Dec 2024 08:18:19.098 * 10 changes in 300 seconds. Saving...
+2024-12-24_08:18:19.09902 275:M 24 Dec 2024 08:18:19.098 * Background saving started by pid 12173
+2024-12-24_08:18:19.13792 12173:C 24 Dec 2024 08:18:19.137 * DB saved on disk
+2024-12-24_08:18:19.13871 12173:C 24 Dec 2024 08:18:19.138 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+2024-12-24_08:18:19.20805 275:M 24 Dec 2024 08:18:19.208 * Background saving terminated with success
+2024-12-24_08:23:20.07215 275:M 24 Dec 2024 08:23:20.072 * 10 changes in 300 seconds. Saving...
+2024-12-24_08:23:20.07259 275:M 24 Dec 2024 08:23:20.072 * Background saving started by pid 12305
+2024-12-24_08:23:20.11320 12305:C 24 Dec 2024 08:23:20.113 * DB saved on disk
+2024-12-24_08:23:20.11402 12305:C 24 Dec 2024 08:23:20.113 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+2024-12-24_08:23:20.17322 275:M 24 Dec 2024 08:23:20.173 * Background saving terminated with success
+2024-12-24_08:28:21.02773 275:M 24 Dec 2024 08:28:21.027 * 10 changes in 300 seconds. Saving...
+2024-12-24_08:28:21.02821 275:M 24 Dec 2024 08:28:21.028 * Background saving started by pid 12438
+2024-12-24_08:28:21.06633 12438:C 24 Dec 2024 08:28:21.066 * DB saved on disk
+2024-12-24_08:28:21.06691 12438:C 24 Dec 2024 08:28:21.066 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+2024-12-24_08:28:21.12885 275:M 24 Dec 2024 08:28:21.128 * Background saving terminated with success
+2024-12-24_08:33:22.08786 275:M 24 Dec 2024 08:33:22.087 * 10 changes in 300 seconds. Saving...
+2024-12-24_08:33:22.08832 275:M 24 Dec 2024 08:33:22.088 * Background saving started by pid 12588
+2024-12-24_08:33:22.12478 12588:C 24 Dec 2024 08:33:22.124 * DB saved on disk
+2024-12-24_08:33:22.12576 12588:C 24 Dec 2024 08:33:22.125 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+2024-12-24_08:33:22.19088 275:M 24 Dec 2024 08:33:22.190 * Background saving terminated with success
+2024-12-24_08:38:23.00577 275:M 24 Dec 2024 08:38:23.005 * 10 changes in 300 seconds. Saving...
+2024-12-24_08:38:23.00631 275:M 24 Dec 2024 08:38:23.006 * Background saving started by pid 12716
+2024-12-24_08:38:23.04385 12716:C 24 Dec 2024 08:38:23.043 * DB saved on disk
+2024-12-24_08:38:23.04450 12716:C 24 Dec 2024 08:38:23.044 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+2024-12-24_08:38:23.10657 275:M 24 Dec 2024 08:38:23.106 * Background saving terminated with success
+2024-12-24_08:43:24.05776 275:M 24 Dec 2024 08:43:24.057 * 10 changes in 300 seconds. Saving...
+2024-12-24_08:43:24.05841 275:M 24 Dec 2024 08:43:24.058 * Background saving started by pid 12850
+2024-12-24_08:43:24.09562 12850:C 24 Dec 2024 08:43:24.095 * DB saved on disk
+2024-12-24_08:43:24.09640 12850:C 24 Dec 2024 08:43:24.096 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+2024-12-24_08:43:24.16132 275:M 24 Dec 2024 08:43:24.161 * Background saving terminated with success
+2024-12-24_08:48:25.00290 275:M 24 Dec 2024 08:48:25.002 * 10 changes in 300 seconds. Saving...
+2024-12-24_08:48:25.00374 275:M 24 Dec 2024 08:48:25.003 * Background saving started by pid 12996
+2024-12-24_08:48:25.04667 12996:C 24 Dec 2024 08:48:25.046 * DB saved on disk
+2024-12-24_08:48:25.04730 12996:C 24 Dec 2024 08:48:25.047 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+2024-12-24_08:48:25.10430 275:M 24 Dec 2024 08:48:25.104 * Background saving terminated with success

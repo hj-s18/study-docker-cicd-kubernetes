@@ -1,0 +1,7 @@
+2024-12-26_00:49:24.90429 {"level":"info","time":"2024-12-26T00:49:24.896Z","msg":"Running KAS gitlab-kas/v17.0.1/90db8420"}
+2024-12-26_00:49:24.91635 {"level":"info","time":"2024-12-26T00:49:24.915Z","msg":"Using own private API URL","url":"grpc://localhost:8155"}
+2024-12-26_00:49:24.92465 {"level":"info","time":"2024-12-26T00:49:24.923Z","msg":"Kubernetes API endpoint is up","mod_name":"kubernetes_api","net_network":"tcp","net_address":"127.0.0.1:8154"}
+2024-12-26_00:49:24.93722 {"level":"info","time":"2024-12-26T00:49:24.935Z","msg":"API endpoint is up","net_network":"tcp","net_address":"127.0.0.1:8153"}
+2024-12-26_00:49:24.93817 {"level":"info","time":"2024-12-26T00:49:24.932Z","msg":"Agentk API endpoint is up","net_network":"tcp","net_address":"127.0.0.1:8150","is_websocket":true}
+2024-12-26_00:49:24.93854 {"level":"info","time":"2024-12-26T00:49:24.938Z","msg":"Observability endpoint is up","mod_name":"observability","net_network":"tcp","net_address":"127.0.0.1:8151"}
+2024-12-26_00:49:24.93855 {"level":"info","time":"2024-12-26T00:49:24.938Z","msg":"Private API endpoint is up","net_network":"tcp","net_address":"127.0.0.1:8155"}

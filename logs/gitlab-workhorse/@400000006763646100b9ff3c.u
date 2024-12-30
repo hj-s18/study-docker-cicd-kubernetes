@@ -1,0 +1,46 @@
+{"build_time":"20240521.232022","level":"info","msg":"Starting","time":"2024-12-18T08:41:07Z","version":"v17.0.1"}
+{"address":"localhost:9229","level":"info","msg":"Running metrics server","network":"tcp","time":"2024-12-18T08:41:07Z"}
+{"level":"info","msg":"Using redis/go-redis","time":"2024-12-18T08:41:07Z"}
+{"level":"info","msg":"keywatcher: starting process loop","time":"2024-12-18T08:41:07Z"}
+{"correlation_id":"","duration_ms":0,"error":"badgateway: failed to receive response: dial unix /var/opt/gitlab/gitlab-rails/sockets/gitlab.socket: connect: connection refused","level":"error","method":"GET","msg":"","time":"2024-12-18T08:41:07Z","uri":""}
+{"address":"/var/opt/gitlab/gitlab-workhorse/sockets/socket","level":"info","msg":"Running upstream server","network":"unix","time":"2024-12-18T08:41:07Z"}
+{"correlation_id":"","duration_ms":0,"error":"badgateway: failed to receive response: dial unix /var/opt/gitlab/gitlab-rails/sockets/gitlab.socket: connect: connection refused","level":"error","method":"GET","msg":"","time":"2024-12-18T08:41:17Z","uri":""}
+{"correlation_id":"","duration_ms":0,"error":"badgateway: failed to receive response: dial unix /var/opt/gitlab/gitlab-rails/sockets/gitlab.socket: connect: connection refused","level":"error","method":"GET","msg":"","time":"2024-12-18T08:41:27Z","uri":""}
+{"correlation_id":"","duration_ms":0,"error":"badgateway: failed to receive response: dial unix /var/opt/gitlab/gitlab-rails/sockets/gitlab.socket: connect: connection refused","level":"error","method":"GET","msg":"","time":"2024-12-18T08:41:37Z","uri":""}
+{"correlation_id":"","duration_ms":0,"error":"badgateway: failed to receive response: dial unix /var/opt/gitlab/gitlab-rails/sockets/gitlab.socket: connect: connection refused","level":"error","method":"GET","msg":"","time":"2024-12-18T08:41:47Z","uri":""}
+{"correlation_id":"01JFCEWCMNCY9FS2M5HP0ZCMAQ","duration_ms":0,"error":"badgateway: failed to receive response: dial unix /var/opt/gitlab/gitlab-rails/sockets/gitlab.socket: connect: connection refused","level":"error","method":"GET","msg":"","time":"2024-12-18T08:41:49Z","uri":"/help"}
+{"content_type":"text/html; charset=utf-8","correlation_id":"01JFCEWCMNCY9FS2M5HP0ZCMAQ","duration_ms":0,"host":"localhost","level":"info","method":"GET","msg":"access","proto":"HTTP/1.1","referrer":"","remote_addr":"127.0.0.1:0","remote_ip":"127.0.0.1","route":"","status":502,"system":"http","time":"2024-12-18T08:41:49Z","ttfb_ms":0,"uri":"/help","user_agent":"curl/8.6.0-DEV","written_bytes":3216}
+{"correlation_id":"","duration_ms":0,"error":"badgateway: failed to receive response: dial unix /var/opt/gitlab/gitlab-rails/sockets/gitlab.socket: connect: connection refused","level":"error","method":"GET","msg":"","time":"2024-12-18T08:41:57Z","uri":""}
+{"correlation_id":"","duration_ms":0,"error":"badgateway: failed to receive response: dial unix /var/opt/gitlab/gitlab-rails/sockets/gitlab.socket: connect: connection refused","level":"error","method":"GET","msg":"","time":"2024-12-18T08:42:07Z","uri":""}
+redis: 2024/12/18 08:42:08 pubsub.go:168: redis: discarding bad PubSub connection: EOF
+{"error":"keywatcher: pubsub receive: EOF","level":"error","msg":"","time":"2024-12-18T08:42:08Z"}
+{"content_type":"text/html; charset=utf-8","correlation_id":"01JFCEY79EQTNNGC4V5JRQ39Y1","duration_ms":469,"host":"localhost","level":"info","method":"GET","msg":"access","proto":"HTTP/1.1","referrer":"","remote_addr":"127.0.0.1:0","remote_ip":"127.0.0.1","route":"","status":200,"system":"http","time":"2024-12-18T08:42:49Z","ttfb_ms":469,"uri":"/help","user_agent":"curl/8.6.0-DEV","written_bytes":27118}
+redis: 2024/12/18 08:43:09 pubsub.go:168: redis: discarding bad PubSub connection: EOF
+{"error":"keywatcher: pubsub receive: EOF","level":"error","msg":"","time":"2024-12-18T08:43:09Z"}
+{"content_type":"text/html; charset=utf-8","correlation_id":"01JFCF02D45YZ17X3F1FT9EQ4H","duration_ms":478,"host":"localhost","level":"info","method":"GET","msg":"access","proto":"HTTP/1.1","referrer":"","remote_addr":"127.0.0.1:0","remote_ip":"127.0.0.1","route":"","status":200,"system":"http","time":"2024-12-18T08:43:50Z","ttfb_ms":478,"uri":"/help","user_agent":"curl/8.6.0-DEV","written_bytes":27118}
+redis: 2024/12/18 08:44:10 pubsub.go:168: redis: discarding bad PubSub connection: EOF
+{"error":"keywatcher: pubsub receive: EOF","level":"error","msg":"","time":"2024-12-18T08:44:10Z"}
+{"content_type":"text/html; charset=utf-8","correlation_id":"01JFCF1XGQ9A0WBVZN5EQ5QMKP","duration_ms":98,"host":"localhost","level":"info","method":"GET","msg":"access","proto":"HTTP/1.1","referrer":"","remote_addr":"127.0.0.1:0","remote_ip":"127.0.0.1","route":"","status":200,"system":"http","time":"2024-12-18T08:44:50Z","ttfb_ms":98,"uri":"/help","user_agent":"curl/8.6.0-DEV","written_bytes":27118}
+redis: 2024/12/18 08:45:11 pubsub.go:168: redis: discarding bad PubSub connection: EOF
+{"error":"keywatcher: pubsub receive: EOF","level":"error","msg":"","time":"2024-12-18T08:45:11Z"}
+{"content_type":"text/html; charset=utf-8","correlation_id":"01JFCF3R83C15JE7FHTV58C9V4","duration_ms":98,"host":"localhost","level":"info","method":"GET","msg":"access","proto":"HTTP/1.1","referrer":"","remote_addr":"127.0.0.1:0","remote_ip":"127.0.0.1","route":"","status":200,"system":"http","time":"2024-12-18T08:45:50Z","ttfb_ms":97,"uri":"/help","user_agent":"curl/8.6.0-DEV","written_bytes":27118}
+redis: 2024/12/18 08:46:12 pubsub.go:168: redis: discarding bad PubSub connection: EOF
+{"error":"keywatcher: pubsub receive: EOF","level":"error","msg":"","time":"2024-12-18T08:46:12Z"}
+{"content_type":"text/html; charset=utf-8","correlation_id":"01JFCF5JZGYM6BJDAD86PK60HX","duration_ms":104,"host":"localhost","level":"info","method":"GET","msg":"access","proto":"HTTP/1.1","referrer":"","remote_addr":"127.0.0.1:0","remote_ip":"127.0.0.1","route":"","status":200,"system":"http","time":"2024-12-18T08:46:50Z","ttfb_ms":104,"uri":"/help","user_agent":"curl/8.6.0-DEV","written_bytes":27118}
+redis: 2024/12/18 08:47:13 pubsub.go:168: redis: discarding bad PubSub connection: EOF
+{"error":"keywatcher: pubsub receive: EOF","level":"error","msg":"","time":"2024-12-18T08:47:13Z"}
+{"content_type":"text/html; charset=utf-8","correlation_id":"01JFCF7DQBF9VVJ34PPEN7F8JE","duration_ms":96,"host":"localhost","level":"info","method":"GET","msg":"access","proto":"HTTP/1.1","referrer":"","remote_addr":"127.0.0.1:0","remote_ip":"127.0.0.1","route":"","status":200,"system":"http","time":"2024-12-18T08:47:51Z","ttfb_ms":96,"uri":"/help","user_agent":"curl/8.6.0-DEV","written_bytes":27118}
+redis: 2024/12/18 08:48:14 pubsub.go:168: redis: discarding bad PubSub connection: EOF
+{"error":"keywatcher: pubsub receive: EOF","level":"error","msg":"","time":"2024-12-18T08:48:14Z"}
+{"content_type":"text/html; charset=utf-8","correlation_id":"01JFCF98EYK31XMYZV53W75SV5","duration_ms":141,"host":"localhost","level":"info","method":"GET","msg":"access","proto":"HTTP/1.1","referrer":"","remote_addr":"127.0.0.1:0","remote_ip":"127.0.0.1","route":"","status":200,"system":"http","time":"2024-12-18T08:48:51Z","ttfb_ms":140,"uri":"/help","user_agent":"curl/8.6.0-DEV","written_bytes":27118}
+redis: 2024/12/18 08:49:15 pubsub.go:168: redis: discarding bad PubSub connection: EOF
+{"error":"keywatcher: pubsub receive: EOF","level":"error","msg":"","time":"2024-12-18T08:49:15Z"}
+{"content_type":"text/html; charset=utf-8","correlation_id":"01JFCFB37YJS9PK9K9PVV8AD5X","duration_ms":102,"host":"localhost","level":"info","method":"GET","msg":"access","proto":"HTTP/1.1","referrer":"","remote_addr":"127.0.0.1:0","remote_ip":"127.0.0.1","route":"","status":200,"system":"http","time":"2024-12-18T08:49:51Z","ttfb_ms":102,"uri":"/help","user_agent":"curl/8.6.0-DEV","written_bytes":27118}
+redis: 2024/12/18 08:50:16 pubsub.go:168: redis: discarding bad PubSub connection: EOF
+{"error":"keywatcher: pubsub receive: EOF","level":"error","msg":"","time":"2024-12-18T08:50:16Z"}
+{"content_type":"text/html; charset=utf-8","correlation_id":"01JFCFCXZRR2BB6N5C49SEHHSQ","duration_ms":115,"host":"localhost","level":"info","method":"GET","msg":"access","proto":"HTTP/1.1","referrer":"","remote_addr":"127.0.0.1:0","remote_ip":"127.0.0.1","route":"","status":200,"system":"http","time":"2024-12-18T08:50:51Z","ttfb_ms":115,"uri":"/help","user_agent":"curl/8.6.0-DEV","written_bytes":27118}
+redis: 2024/12/18 08:51:17 pubsub.go:168: redis: discarding bad PubSub connection: EOF
+{"error":"keywatcher: pubsub receive: EOF","level":"error","msg":"","time":"2024-12-18T08:51:17Z"}
+{"content_type":"text/html; charset=utf-8","correlation_id":"01JFCFERQY016VAJT66ZGJBGAP","duration_ms":96,"host":"localhost","level":"info","method":"GET","msg":"access","proto":"HTTP/1.1","referrer":"","remote_addr":"127.0.0.1:0","remote_ip":"127.0.0.1","route":"","status":200,"system":"http","time":"2024-12-18T08:51:51Z","ttfb_ms":96,"uri":"/help","user_agent":"curl/8.6.0-DEV","written_bytes":27118}
+redis: 2024/12/18 08:52:18 pubsub.go:168: redis: discarding bad PubSub connection: EOF
+{"error":"keywatcher: pubsub receive: EOF","level":"error","msg":"","time":"2024-12-18T08:52:18Z"}

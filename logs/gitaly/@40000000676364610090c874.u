@@ -1,0 +1,28 @@
+{"level":"info","msg":"Wrapper started","pid":273,"time":"2024-12-18T08:41:05.581Z","wrapper":273}
+{"level":"info","msg":"finding process","pid":273,"pid_file":"/var/opt/gitlab/gitaly/gitaly.pid","time":"2024-12-18T08:41:05.581Z","wrapper":273}
+{"error":"open /var/opt/gitlab/gitaly/gitaly.pid: no such file or directory","level":"error","msg":"find process","pid":273,"time":"2024-12-18T08:41:05.581Z","wrapper":273}
+{"level":"info","msg":"spawning a process","pid":273,"time":"2024-12-18T08:41:05.581Z","wrapper":273}
+{"level":"info","msg":"monitoring process","pid":273,"process":283,"time":"2024-12-18T08:41:05.583Z","wrapper":273}
+{"latencies":[0.001,0.005,0.025,0.1,0.5,1,10,30,60,300,1500],"level":"info","msg":"grpc prometheus histograms enabled","pid":283,"time":"2024-12-18T08:41:05.824Z"}
+{"level":"info","msg":"Starting Gitaly","pid":283,"time":"2024-12-18T08:41:05.824Z","version":"17.0.1"}
+{"duration_ms":0,"level":"info","msg":"finished initializing cgroups","pid":283,"time":"2024-12-18T08:41:05.824Z"}
+{"duration_ms":113,"level":"info","msg":"finished unpacking auxiliary binaries","pid":283,"time":"2024-12-18T08:41:05.938Z"}
+{"duration_ms":0,"level":"info","msg":"finished initializing bootstrap","pid":283,"time":"2024-12-18T08:41:05.938Z"}
+{"duration_ms":3,"level":"info","msg":"finished initializing command factory","pid":283,"time":"2024-12-18T08:41:05.942Z"}
+{"duration_ms":2,"level":"info","msg":"finished detecting git version","pid":283,"time":"2024-12-18T08:41:05.944Z"}
+{"level":"info","msg":"clearing disk cache object folder","pid":283,"storage":"default","time":"2024-12-18T08:41:05.944Z"}
+{"cache_directory":"/var/opt/gitlab/git-data/repositories/+gitaly/tmp/diskcache3407705006","level":"info","msg":"moving disk cache object folder","pid":283,"storage":"default","time":"2024-12-18T08:41:05.945Z"}
+{"cache_directory":"/var/opt/gitlab/git-data/repositories/+gitaly/tmp/diskcache3407705006","level":"info","msg":"disk cache object folder doesn't exist, no need to remove","pid":283,"storage":"default","time":"2024-12-18T08:41:05.945Z"}
+{"disk_cache_path":"/var/opt/gitlab/git-data/repositories/+gitaly/cache","level":"info","msg":"Starting file walker","path":"/var/opt/gitlab/git-data/repositories/+gitaly/cache","pid":283,"time":"2024-12-18T08:41:05.945Z"}
+{"disk_cache_path":"/var/opt/gitlab/git-data/repositories/+gitaly/state","level":"info","msg":"Starting file walker","path":"/var/opt/gitlab/git-data/repositories/+gitaly/state","pid":283,"time":"2024-12-18T08:41:05.945Z"}
+{"cache_directory":"/var/opt/gitlab/git-data/repositories/+gitaly/tmp/diskcache3407705006","clear_duration_ms":0,"level":"info","msg":"cleared all cache object files","pid":283,"storage":"default","time":"2024-12-18T08:41:05.945Z"}
+{"address":"/var/opt/gitlab/gitaly/gitaly.socket","level":"info","msg":"listening at address","pid":283,"schema":"unix","time":"2024-12-18T08:41:05.952Z"}
+{"address":"/var/opt/gitlab/gitaly/run/gitaly-283/sock.d/intern","level":"info","msg":"listening at address","pid":283,"schema":"unix","time":"2024-12-18T08:41:05.953Z"}
+{"address":"localhost:9236","level":"info","msg":"starting prometheus listener","pid":283,"time":"2024-12-18T08:41:05.953Z"}
+{"level":"info","msg":"counting repositories","pid":283,"time":"2024-12-18T08:41:05.953Z"}
+{"level":"info","msg":"starting to count repositories","pid":283,"storage_path":"/var/opt/gitlab/git-data/repositories","time":"2024-12-18T08:41:05.954Z"}
+{"counting_duration_ms":0,"level":"info","msg":"completed counting repositories","pid":283,"storage_path":"/var/opt/gitlab/git-data/repositories","time":"2024-12-18T08:41:05.954Z"}
+{"counting_duration":0,"level":"info","msg":"completed counting all repositories","pid":283,"time":"2024-12-18T08:41:05.954Z"}
+{"level":"info","msg":"finished tempdir cleaner walk","pid":283,"storage":"default","time":"2024-12-18T08:41:05.954Z","time_ms":0}
+{"level":"info","msg":"maintenance: daily scheduled","pid":283,"scheduled":"2024-12-18T12:00:00Z","time":"2024-12-18T08:41:05.955Z"}
+{"duration_ms":6760,"level":"info","msg":"License database preloaded","pid":283,"time":"2024-12-18T08:41:12.598Z"}

@@ -1,0 +1,15 @@
+2024-12-24_01:12:24.73354 {"timestamp":"2024-12-24T01:12:24.688Z","pid":348,"message":"Puma starting in cluster mode..."}
+2024-12-24_01:12:24.73363 {"timestamp":"2024-12-24T01:12:24.733Z","pid":348,"message":"* Puma version: 6.4.0 (ruby 3.1.5-p253) (\"The Eagle of Durango\")"}
+2024-12-24_01:12:24.73364 {"timestamp":"2024-12-24T01:12:24.733Z","pid":348,"message":"*  Min threads: 4"}
+2024-12-24_01:12:24.73370 {"timestamp":"2024-12-24T01:12:24.733Z","pid":348,"message":"*  Max threads: 4"}
+2024-12-24_01:12:24.73457 {"timestamp":"2024-12-24T01:12:24.733Z","pid":348,"message":"*  Environment: production"}
+2024-12-24_01:12:24.73465 {"timestamp":"2024-12-24T01:12:24.734Z","pid":348,"message":"*   Master PID: 348"}
+2024-12-24_01:12:24.73859 {"timestamp":"2024-12-24T01:12:24.737Z","pid":348,"message":"*      Workers: 2"}
+2024-12-24_01:12:24.73865 {"timestamp":"2024-12-24T01:12:24.737Z","pid":348,"message":"*     Restarts: (✔) hot (✖) phased"}
+2024-12-24_01:12:24.73866 {"timestamp":"2024-12-24T01:12:24.737Z","pid":348,"message":"* Preloading application"}
+2024-12-24_01:13:45.17405 {"timestamp":"2024-12-24T01:13:45.173Z","pid":348,"message":"* Listening on unix:///var/opt/gitlab/gitlab-rails/sockets/gitlab.socket"}
+2024-12-24_01:13:45.17444 {"timestamp":"2024-12-24T01:13:45.174Z","pid":348,"message":"* Listening on http://127.0.0.1:8080"}
+2024-12-24_01:13:45.17456 {"timestamp":"2024-12-24T01:13:45.174Z","pid":348,"message":"! WARNING: Detected 2 Thread(s) started in app boot:"}
+2024-12-24_01:13:45.17456 {"timestamp":"2024-12-24T01:13:45.174Z","pid":348,"message":"! #\u003cThread:0x00007fc193ae9ff0 /opt/gitlab/embedded/lib/ruby/gems/3.1.0/gems/rack-timeout-0.6.3/lib/rack/timeout/support/scheduler.rb:73 sleep\u003e - /opt/gitlab/embedded/lib/ruby/gems/3.1.0/gems/rack-timeout-0.6.3/lib/rack/timeout/support/scheduler.rb:91:in `sleep'"}
+2024-12-24_01:13:45.17471 {"timestamp":"2024-12-24T01:13:45.174Z","pid":348,"message":"! #\u003cThread:0x00007fc1a0a11b70 /opt/gitlab/embedded/lib/ruby/gems/3.1.0/gems/sentry-ruby-5.17.3/lib/sentry/session_flusher.rb:77 sleep\u003e - /opt/gitlab/embedded/lib/ruby/gems/3.1.0/gems/sentry-ruby-5.17.3/lib/sentry/session_flusher.rb:79:in `sleep'"}
+2024-12-24_01:13:45.17472 {"timestamp":"2024-12-24T01:13:45.174Z","pid":348,"message":"Use Ctrl-C to stop"}
