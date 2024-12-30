@@ -1,0 +1,3 @@
+config
+data/prometheus/data/*
+logs/sidekiq/*
