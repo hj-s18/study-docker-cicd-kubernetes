@@ -1,0 +1,3 @@
+ServerName {{ ansible_fqdn }}
+HostName {{ ansible_hostname }}
+ListenAddress {{ ansible_facts['default_ipv4']['address'] }} 

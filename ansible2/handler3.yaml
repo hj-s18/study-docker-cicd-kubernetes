@@ -1,0 +1,23 @@
+---
+- name: Handlers Example3
+  hosts: serverb
+  gather_facts: false
+  become: true
+  vars:
+    pkg: vsftpd
+  tasks:
+    - name: Install vsftpd
+      yum:
+        name: "{{ pkg }}"
+        state: latest
+
+    - name: Installing vsftpd
+      debug:
+        msg: "restarting vsftp"
+      changed_when: true               # notify를 전달하기 위해 강제로 changed 보고
+      notify: restart vsftpd
+
+  handlers:
+    - name: "restart {{ pkg | default('vsftpd')}}"
+      debug:
+        msg: "Restarting {{ pkg | default('vsftpd')}}"

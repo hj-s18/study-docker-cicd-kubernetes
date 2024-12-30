@@ -1,0 +1,23 @@
+---
+- name: Handlers Example2
+  hosts: serverb
+  gather_facts: true
+  become: true
+  ignore_errors: yes
+  tasks:
+    - name: print message-1
+      debug:
+        msg: "First Message"
+      changed_when: true
+      notify: run_handler
+
+    - name: print message-2
+      debug:
+        msg: "Second Message"
+      changed_when: true
+      notify: run_handler  
+
+  handlers:
+    - name: run_handler  # 두번의 notify를 받았지만 한번만 실행
+      debug:
+        msg: "Today's date and time: {{ '%d-%m-%Y %H:%M:%S' | strftime }}"

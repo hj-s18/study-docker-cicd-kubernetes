@@ -1,0 +1,7 @@
+- name: Copy File
+  hosts: seoul
+  tasks:
+    - name: copy file
+      copy:
+        src: /home/ansible-user/ansible/file.yaml
+        dest: /etc/file.yaml

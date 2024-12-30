@@ -1,0 +1,23 @@
+---
+- name: Install and Start Apache web server
+  hosts: webservers
+  vars:
+    http_port: 80
+    max_clients: 200
+    remote_user: root
+  tasks:
+    - name: Ensure Apache is at the latest version
+      yum:
+        name: httpd
+        state: latest
+
+    - name: Write the Apache config file
+      copy:
+        src: index.html
+        dest: /var/www/html/index.html
+
+    - name: Ensure Apache is running
+      service:
+        name: httpd
+        state: started
+        enabled: yes

@@ -1,0 +1,16 @@
+# register.yaml
+---
+- name: Loop Register Test
+  gather_facts: no
+  hosts: seoul
+  tasks:
+    - name: Looping Echo Task
+      shell: "echo This is my item: {{ item }}"
+      loop:
+        - one
+        - two
+      register: echo_results  # echo_results 변수가 등록됩니다.
+
+    - name: Show echo_results variable
+      debug:
+        var: echo_results     # echo_results 변수의 콘텐츠가 화면에 표시됩니다.

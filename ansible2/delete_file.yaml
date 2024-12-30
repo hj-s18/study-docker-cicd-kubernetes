@@ -1,0 +1,7 @@
+- name: Set Context
+  hosts: seoul
+  tasks:
+    - name: delete file if it's present
+      file:
+        dest: /etc/samba_file
+        state: absent

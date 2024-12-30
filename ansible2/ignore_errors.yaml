@@ -1,0 +1,8 @@
+- hosts: seoul
+  force_handlers: yes
+  tasks:
+    - name: Latest version of httpd is installed
+      yum:
+        name: httpdpkg
+        state: latest
+      # ignore_errors: yes

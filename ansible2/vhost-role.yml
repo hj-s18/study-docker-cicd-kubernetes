@@ -1,0 +1,18 @@
+---
+- name: Use vhost-ansible role playbook
+  hosts: serverc
+  become: true
+  pre_tasks:
+    - name: pre_tasks message
+      debug:
+        msg: 'Check web server configuration.'
+  roles:
+    - vhost-ansible
+  post_tasks:
+    - name: Check HTML content installed
+      copy:
+        src: files/html/
+        dest: "/var/www/vhosts/{{ ansible_hostname }}"
+    - name: post_tasks message
+      debug:
+        msg: 'Web server is created.'

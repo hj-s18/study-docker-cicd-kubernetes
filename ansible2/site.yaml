@@ -1,0 +1,7 @@
+- name: sample playbook
+  hosts: servera
+  tasks:
+  - name: sample task
+    yum:
+      name: httpd
+      state: absent

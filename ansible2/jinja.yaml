@@ -1,0 +1,7 @@
+- name: Template Test
+  hosts: all
+  tasks:
+    - name: Create configuration file from template
+      ansible.builtin.template:   # template 만 써도 됨
+        src: /home/ansible-user/ansible/config.j2
+        dest: /tmp/dest-config-file.txt

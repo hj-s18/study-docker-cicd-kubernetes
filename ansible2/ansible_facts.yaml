@@ -1,0 +1,14 @@
+- name: Demonstrate the "in" keyword
+  hosts: all
+  gather_facts: yes
+  vars:
+    supported_distros:
+      - RedHat
+      - Fedora
+      - Rocky
+  tasks:
+    - name: Install httpd using dnf, where supported
+      ansible.builtin.dnf:     # dnf 대신 yum 모듈 사용 가능
+        name: httpd
+        state: present
+      when: ansible_facts['distribution'] in supported_distros

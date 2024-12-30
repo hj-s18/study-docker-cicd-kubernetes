@@ -1,0 +1,14 @@
+- name: Set Context
+  hosts: seoul
+  tasks:
+    - name: Touch a file and set permissions
+      file:
+        path: /etc/samba_file
+        owner: ansible-user
+        mode: '0640'
+        state: touch
+
+    - name: Set SELinux context
+      file:
+        path: /etc/samba_file
+        setype: samba_share_t

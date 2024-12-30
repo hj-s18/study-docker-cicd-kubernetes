@@ -1,0 +1,12 @@
+- name: stat module
+  hosts: seoul
+  tasks:
+    - name: check stat module
+      stat:
+        path: /var/log/secure
+        checksum_algorithm: md5
+      register: result
+
+    - name: check result
+      debug:
+        var: result

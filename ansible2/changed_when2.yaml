@@ -1,0 +1,10 @@
+- name: Changed_when Failure Task
+  hosts: seoul
+  tasks:
+    - name: Check date and time
+      command: date
+      register: result
+      changed_when: false   # 이 부분 추가
+    - name: Show local date and time
+      debug:
+        var: result.stdout

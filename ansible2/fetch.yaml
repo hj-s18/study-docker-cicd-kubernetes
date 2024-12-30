@@ -1,0 +1,10 @@
+- name: Fetch File
+  hosts: seoul
+  vars:
+    - user: ansible-user
+  tasks:
+    - name: fetch from host
+      fetch:
+        src: "/home/{{ user }}/.ssh/authorized_keys"
+        dest: "files/keys/{{ user }}.pub"
+        flat: yes

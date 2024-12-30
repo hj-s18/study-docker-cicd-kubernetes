@@ -1,0 +1,11 @@
+- name: block test
+  hosts: seoul
+  tasks:
+    - name: block test
+      blockinfile:
+        path: /home/ansible-user/index.html
+        create: yes   # 파일이 없으면 만들기
+        block: |
+          Welcome to the Hello world.
+          Show your ability in Hello world.
+        state: present
